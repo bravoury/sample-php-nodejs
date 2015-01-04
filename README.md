@@ -6,8 +6,17 @@ The `slim` microframework is used to handle the PHP part
 
 ## NodeJS
 
-NodeJS is installed to install/build assets, the different tasks
-are specified in the `composer.json` file of the PHP project
+NodeJS is installed to install/build assets. If you want the assets to be built on deployment time,
+you have to add the tools you're using to the dependencies of your app:
+
+```bash
+npm install bower --save
+npm install gulp --save
+git add package.json
+git commit -m "Set bower and gulp as dependencies"
+```
+
+The different tasks are specified in the `composer.json` file of the PHP project
 
 ```json
 {
