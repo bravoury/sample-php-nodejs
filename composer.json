@@ -6,11 +6,14 @@
             "email": "leo@unbekandt.eu"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.4.0",
+	"slim/slim": ">=2.5.0"
+    },
     "extra": {
         "paas": {
             "compile": [
-                "bower install"
+                "node_modules/.bin/bower install"
             ]
         }
     }
