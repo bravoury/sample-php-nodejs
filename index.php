@@ -1,4 +1,10 @@
 <?php
-    phpinfo();
+  require 'vendor/autoload.php';
+
+  $app = new \Slim\Slim();
+  $app->get('/', function () use ($app) {
+    $app->render('application.php');
+  });
+  $app->run();
 ?>
 
