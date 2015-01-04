@@ -1,0 +1,17 @@
+{
+    "name": "leo/sample-php-nodejs",
+    "authors": [
+        {
+            "name": "Soulou",
+            "email": "leo@unbekandt.eu"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "paas": {
+            "compile": [
+                "bower install"
+            ]
+        }
+    }
+}
