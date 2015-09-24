@@ -5,6 +5,9 @@
   "devDependencies": {},
   "author": "Leo Unbekandt <leo@scalingo.com>",
   "license": "BSD",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "bower": "^1.3.12",
     "gulp": "^3.8.10",
