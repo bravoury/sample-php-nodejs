@@ -6,7 +6,7 @@
   "author": "Leo Unbekandt <leo@scalingo.com>",
   "license": "BSD",
   "engines": {
-    "node": "0.10.x"
+    "node": "8.x"
   },
   "dependencies": {
     "bower": "^1.7.9",
