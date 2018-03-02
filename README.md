@@ -37,8 +37,8 @@ The different tasks are specified in the `composer.json` file of the PHP project
 * Install http://cli.scalingo.com
 
 ```
-scalingo create appname
-scalingo -a appname env-set BUILDPACK_NAME=php
+scalingo create my-app
+scalingo --app my-app env-set BUILDPACK_NAME=php DOCUMENT_ROOT=/
 git push scalingo master
 ```
 
