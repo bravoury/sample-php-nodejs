@@ -1,6 +1,6 @@
 # Sample PHP/NodeJS application
 
-## PHP
+## PHP 
 
 The `slim` microframework is used to handle the PHP part
 
